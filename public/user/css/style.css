@@ -1,0 +1,133 @@
+@import "section-styles/top-menu.css";
+@import "section-styles/hero-header.css";
+@import "section-styles/slider-info-section.css";
+@import "section-styles/new-random-topic.css";
+@import "section-styles/main-content.css";
+@import "section-styles/course-sidebar.css";
+@import "section-styles/newsletter.css";
+@import "section-styles/footer.css";
+@import "section-styles/side-nav.css";
+@import "section-styles/single-page.css";
+@import "section-styles/all-post.css";
+@import "section-styles/course.css";
+@import "section-styles/login-registration.css";
+@import "section-styles/profile.css";
+
+@font-face {
+    font-family: 'isans' ;
+    src: url('../fonts/isans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/maicons.woff) format('woff');
+
+}
+
+@font-face {
+    font-family: 'glyphicons' ;
+    src: url('../fonts/glyphicons-halflings-regular.woff') format('woff');
+
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: rtl;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+*, body {
+    font-family: isans;
+}
+
+body {
+    /*background: #efefef;*/
+    background: url("../img/bg-pattern.gif") repeat;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.wrapper-margin-top {
+    margin-top: 20px;
+}
+
+.main-wrapper {
+    background: #fff;
+}
+
+.wrapper-free-styles {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px #efefef;
+    border: 1px solid #efefef;
+    background: #fff;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.padding-reset {
+    padding: 0;
+}
+
+.user-avatar {
+    padding: 5px;
+    border: 1px solid #d4d4d4;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 3px 2px #efefef;
+    border-radius: 3px;
+}
+
+/*.container{
+    max-width: 1200px;
+}*/
+
+
+.btn-cm-single  {
+    float: left !important;
+    margin-left: 10px !important;
+    margin-bottom: 9px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px;
+    padding: 8px !important;
+}
+
+.textarear-cm-single{
+    margin: 0 39px;
+}
+
+#input-cm-single{
+    float: left;
+    margin: 10px 0;
+}

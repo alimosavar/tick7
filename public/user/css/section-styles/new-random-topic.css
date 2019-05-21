@@ -1,0 +1,67 @@
+.lesson-title,.random-title{
+    border-bottom: 1px solid #f9f9f9;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #02ce00;
+}
+.lesson-title i,.random-title i{
+    vertical-align: -12px;
+    font-size: 37px;
+    color: #ff9b00;
+    margin-left: 5px;
+}
+.post-publish,.post-random{
+    padding: 20px 10px 0 10px;
+    font-size: 15px;
+
+}
+.post-publish-date{
+    margin-top: 5px;
+    font-size: 11px;
+    color: #cecbcb;
+}
+.post-publish-date i{
+    vertical-align: -5px;
+    margin-right: 6px;
+}
+.post-publish-date span{
+    margin-left: 60px;
+}
+.post-publish-list li{
+    border-right: 5px solid #f3f7fa;
+    position: relative;
+    height: 70px;
+    padding: 1px 35px 0 2px;
+}
+.list-icon{
+    position: absolute;
+    text-align: center;
+    right: -13px;
+    top: 0;
+    display: inline-block;
+    color: #aaa;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    transition: .7s;
+}
+.post-publish-list li:hover .list-icon{
+    background-color: #afb6fb;
+    box-shadow: 0 0 0px 3px #efefef;
+    -moz-box-shadow: 0 0 0px 3px #efefef;
+    -webkit-box-shadow: 0 0 0px 3px #efefef;
+}
+.post-publish-list li:last-child{
+    border: 0;
+}
+.post-publish-list li:last-child .list-icon{
+    right: -8px;
+}
+.post-random ul li{
+    border: 1px solid #f7f7f7;
+    padding: 10px 12px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}

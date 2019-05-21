@@ -1,0 +1,228 @@
+/*single-header*/
+.single-landing-layer{
+    background: url("../../img/single-header.jpg") no-repeat center center/cover;
+    min-height: 250px;
+    border-bottom: 5px solid #8da3ff;
+}
+.single-landing-layer h1{
+    padding-top: 100px;
+    font-size: 28px;
+}
+.single-landing-layer h1 a{
+    color: #fff;
+}
+.single-landing-layer h1 a:hover{
+    color: #d4d3ff;
+}
+.single-landing-layer img{
+    margin: 50px;
+}
+#single-landing-layer-container{
+    padding: 0;
+}
+#post-author-image{
+    float: right;
+}
+/*single content*/
+.single-post-meta{
+    border-radius: 3px 3px 0 0;
+    background: #03A9F4;
+    padding: 7px 14px;
+    border: 1px solid #efefef;
+    color: #fff;
+    text-align: center;
+}
+.single-post-meta ul{
+    margin: 0;
+}
+.single-post-meta ul li{
+    margin: 0 20px;
+}
+.single-post-meta ul li i{
+    color: #fff;
+    vertical-align: -5px;
+    margin-left: 5px;
+}
+.single-post-meta ul li:last-child i{
+    color: #ffff00;
+}
+.all-content{
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: justify;
+}
+.all-content img{
+    margin: 0 auto;
+    display: inherit;
+    border-radius: 3px;
+    border: 2px solid #efefef;
+    padding: 3px;
+}
+.tags-section{
+    border-top: 1px solid #efefef;
+    padding: 15px;
+}
+.tags-section ul{
+    margin:0;
+}
+.tag {
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    color: #999;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    /*  margin: 0 10px 10px 0;*/
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
+.tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+}
+.tag::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-right: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tag:hover {
+    background-color: crimson;
+    color: white;
+}
+.tag:hover::after {
+    border-right-color: crimson;
+}
+.my-video-js-style{
+    width: 100%;
+    height:auto;
+    box-shadow: 0 1px 5px 0 #b7b7b7;
+    margin: 20px 0;
+    border-radius: 3px;
+    background: #000;
+}
+/*related opst section*/
+.related-post-section-title,.comment-section-title{
+    font-size: 18px;
+    font-weight: bold;
+    background: #03a9f4;
+    color: #ffffff;
+    padding: 7px;
+}
+#custom-owl-carousel{
+    padding-top: 20px;
+}
+/*comment section*/
+.media{
+    padding: 10px;
+}
+#custom-media-object{
+    border: 1px solid #efefef;
+    padding:3px;
+    margin-left: 55px;
+    box-shadow: 1px 1px 1px 1px #efefef;
+}
+#custom-media-right{
+    position: relative;
+}
+.comment-line{
+    border-bottom: 2px solid #d4d4d4;
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    padding: 0 35px;
+}
+.user-comment{
+    border: 1px solid #efefef;
+    width: 100%;
+    border-radius: 4px;
+}
+.user-comment ul{
+    border-bottom: 1px solid #efefef;
+    padding: 6px 10px;
+    font-size: 12px;
+    color: #8a8888;
+}
+.user-comment ul li.comment-answer, li.comment-edit {
+    float: left;
+}
+.user-comment ul li{
+    margin-left: 10px;
+}
+.user-comment ul li i {
+    vertical-align: -4px;
+    margin-left: 5px;
+}
+.user-comment p {
+    padding: 10px;
+}
+.comment-answer-section{
+    margin-right: 50px;
+}
+#comment-question{
+    background: #faf6ff;
+}
+.send-comment{
+    padding: 10px;
+}
+.comment-btn-send{
+    float: left;
+}
+/*single sidebar*/
+#custom-nav-tabs{
+    border-bottom: 0 none;
+}
+#custom-nav-tabs li{
+    margin-right: 2px;
+}
+#custom-nav-tabs li a{
+    /*width: 129%;*/
+    font-size: 13px;
+    color: #333;
+    padding: 8px;
+    border: none;
+    border-radius: 0;
+    background: #fbfbfb;
+    position: relative;
+}
+#custom-nav-tabs li.active a:after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #03a9f4;
+}
+#custom-nav-tabs li.active a,
+#custom-nav-tabs li.active a:focus,
+#custom-nav-tabs li.active a:hover{
+    border: none;
+    background:#03a9f4 ;
+    color: #ffffff;
+    transition: all 0.2s linear 0s;
+}
+#custom-tab-content{
+    font-size: 15px;
+    color: #808080;
+    border: none;
+    line-height: 25px;
+    margin-top: 25px;
+    padding: 0 24px 0 0;
+}
+#single-post-publish-list li{
+    padding: 1px 21px 0 2px;
+}

@@ -1,0 +1,160 @@
+#hero-header{
+    background: url("../../img/slide.jpg") no-repeat scroll center center/cover;
+    min-height: 600px;
+    /*  background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;*/
+}
+#hero-header h2{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.pulsate{
+    color: #FFFF00!important;
+    animation: pulsate 2s ease-out;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count:infinite ;
+}
+@-webkit-keyframes pulsate {
+    0%{
+        opacity: .5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .5;
+    }
+}
+/* bounce arrow */
+.bounce{
+    margin-top: 30px
+}
+.bounce i{
+    font-size: 56px;
+    color: #bfbbbb;
+}
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100%{
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }40%{
+         -moz-transform: translateY(-30px);
+         -ms-transform: translateY(-30px);
+         -webkit-transform: translateY(-30px);
+         transform: translateY(-30px);
+     }60%{
+          -moz-transform: translateY(-15px);
+          -ms-transform: translateY(-15px);
+          -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+      }
+
+}
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+/*count down timer*/
+/*#countdown-custom{
+    margin-top: 75px;
+}*/
+.kineticjs-content{
+    width: 160px!important;
+    height: 160px!important;
+}
+#countdown-custom .kineticjs-content canvas{
+    width: 160px!important;
+    height: 160px!important;
+}
+#countdown-custom .clock-canvas{
+    width: 160px!important;
+    height: 160px!important;
+}
+#countdown-custom .clock-item .wrap{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+#countdown-custom .text .val{
+    font-size: 22px;
+}
+#countdown-custom .text{
+    margin-top: -27px;
+}
+
+.countdown-container {
+    max-width: 960px!important;
+    position: relative;
+    top: 50%;
+    /*-webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+}
+.clock-item .inner {
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.clock-canvas {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
+}
+.text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+.text .val {
+    font-size: 50px;
+}
+.text .type-time {
+    font-size: 20px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .clock-item {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .clock-item {
+        margin: 0px 30px 30px 30px;
+    }
+}
+/*search filed*/
+#custom-row-search-filed{
+    margin: 46px;
+}
+#custom-row-statictis{
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    text-align: center;
+  /*  margin: 0 360px;*/
+    padding-bottom: 30px;
+}
+#custom-row-statictis span{
+    display: block;
+}
+#custom-row-statictis i{
+    font-size: 75px;
+}

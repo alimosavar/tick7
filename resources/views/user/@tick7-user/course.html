@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>course page</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/BootSideMenu.css">
+    <link rel="stylesheet" href="assets/css/videojs.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <!--JS-->
+    <script src="assets/js/jquery.min.1.11.2.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/kinetic.js"></script>
+    <script src="assets/js/jquery.final-countdown.min.js"></script>
+    <script src="assets/js/jquery.simpleTicker.js"></script>
+    <script src="assets/js/jquery.totemticker.js"></script>
+    <script src="assets/js/jquery.BootSideMenu.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/jquery.owl.carousel.js"></script>
+</head>
+<body>
+<!--boot-side-menu-->
+<div id="slide-nav">
+    <div class="user">
+        <img class="img-circle user-avatar-side-nav" src="assets/img/gravatar.png" width="100" height="100">
+        <div class="welcome">
+            <div class="text-center">خوش آمدید : <span> و حید صالحی</span></div>
+            <div class="text-center">آخرین بازدید شما : <span> 1396/09/15</span></div>
+        </div>
+    </div>
+    <ul class="list-group" id="slide-list">
+        <li><i class="material-icons">dashboard</i><a href="admin/index.html">پنل کاربری</a></li>
+        <li><i class="material-icons">person</i><a href="profile.html">پروفایل کاربری</a></li>
+        <li><i class="material-icons">border_color</i><a href="#">ارسال مطلب</a></li>
+        <li><i class="material-icons">forum</i><a href="#">نظرات</a>
+            <span class="badge badge-slide-nav">5</span>
+        <li><i class="material-icons">school</i><a href="#">آموزش های من</a>
+            <span class="badge badge-slide-nav">5</span>
+        </li>
+        <li><i class="material-icons" id="exit-icon">power_settings_new</i><a href="#">خروج</a></li>
+    </ul>
+</div>
+<!--topbar-->
+<div class="container-fluid" id="social-container">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 hidden-xs">
+            <div id="ticker-fade" class="ticker">
+                <ul>
+                    <li>آيا مي دانيد تا کنون ۱۰۶۲۲ نفر در ۲۳ دوره آموزشي سون لرن ثبت نام کرده اند !</li>
+                    <li>آيا مي دانيد ميانگين رضايت دانشجويان سون لرن از دوره ها، بيش از ۹۳% مي باشد!</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 clo-lg-6">
+            <ul class="list-inline text-left social-icon">
+                <li><a href="#"><img src="assets/img/telegram.png" height="30" width="30"/></a></li>
+                <li><a href="#"><img src="assets/img/instagram.png" height="30" width="30"/></a></li>
+                <li><a href="#"><img src="assets/img/google-plus.png" height="30" width="30"/></a></li>
+                <li><a href="#"><img src="assets/img/facebook.png" height="30" width="30"/></a></li>
+                <li><a href="#"><img src="assets/img/twitter.png" height="30" width="30"/></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="topbar-link-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <a href="#"><img src="assets/img/logo.png" height="50" width="120" alt="logo"/></a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <ul class="list-inline text-left" id="topbar-link">
+                    <li><i class="material-icons">perm_identity</i><a href="#">ورود</a> | <a href="#">عضویت</a></li>
+                    <li><i class="material-icons">contact_mail</i> <a href="#">تماس با ما</a></li>
+                    <li><i class="material-icons">phone</i>0910 542 20 29</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--top menu-->
+<nav class="navbar navbar-default" id="navbar-custom">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--
+                        <a class="navbar-brand" href="#">Brand</a>
+            -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">برنامه نویــسی <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">طراحی وب</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">گرافیـک <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- <form class="navbar-form navbar-left">
+                 <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Search">
+                 </div>
+                 <button type="submit" class="btn btn-default">Submit</button>
+             </form>-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">هوش مصنوعــی</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">وردپرس <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+<!--single header section-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12" id="course-landing-layer-container">
+            <div class="course-landing-layer">
+                <div class="col-sm-12 col-md-8 col-md-8 col-md-offset-2 col-lg-offset-2">
+                    <h1><a href="#"><i class="material-icons">import_contacts</i>دوره آموزش اسکریپت نویسی PHP</a></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--single content section-->
+<div class="container wrapper-margin-top">
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 ">
+            <div class="single-content wrapper-free-styles">
+                <p class="course-detail-title"><i class="material-icons">ondemand_video</i>دموی دوره</p>
+                <div class="all-content">
+                    <video
+                            id="my-player"
+                            class="video-js my-video-js-style"
+                            controls
+                            preload="auto"
+                            poster="assets/img/7learn-blue.png"
+                            data-setup='{}'>
+                        <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="http://videojs.com/html5-video-support/" target="_blank">
+                                supports HTML5 video
+                            </a>
+                        </p>
+                    </video>
+
+                    <!--tab navigation-->
+                    <ul class="nav nav-tabs nav-tab-course" id="custom-nav-tabs">
+                        <li class="active"><a href="#course-parts" data-toggle="tab">جلسات منتشر شده</a></li>
+                        <li><a href="#reference" data-toggle="tab">سرفصل های دوره</a></li>
+                        <li><a href="#students" data-toggle="tab">دانشجویان دوره</a></li>
+                    </ul>
+                    <!--tab contents   -->
+                    <div class="tab-content" id="custom-tab-content">
+                        <div class="tab-pane fade in active" id="course-parts">
+                            <ol class="course-parts">
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+                                <li><a href="#">دوره مجازی اسکریپت نویسی php : جلسه اول - معرفی دوره</a><span
+                                        class="part-duration">22 دقیقه</span></li>
+
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="reference">
+                            <p>سرفصل ها</p>
+                        </div>
+                        <div class="tab-pane fade" id="students">
+                            <ul class="list-inline" id="students-name">
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                                <li>وحید صالحی</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--comments section-->
+            <div class="comment-section wrapper-free-styles wrapper-margin-top">
+                <div class="comment-section-title text-center">
+                    دیدگاه کاربران
+                </div>
+                <div class="media">
+                    <div class="media-right" id="custom-media-right">
+                        <img class="media-object img-circle" id="custom-media-object" src="assets/img/gravatar.png"
+                             width="50" height="50" alt="commenter">
+                        <div class="comment-line"></div>
+                    </div>
+                    <div class="media-body user-comment" id="comment-question">
+                        <div class="user-comment-title">
+                            <ul class="list-inline">
+                                <li><i class="material-icons">perm_identity</i>وحید صالحی</li>
+                                <li><i class="material-icons">date_range</i>1396-09-23</li>
+                                <li class="comment-answer"><a href="#">پاسخ</a></li>
+                                <li class="comment-edit"><a href="#">ویرایش</a></li>
+                                <li></li>
+                            </ul>
+
+                        </div>
+                        <p>آموزش اسکریپت نویسی php چه زمانی برگزار خواهد شد؟</p>
+                    </div>
+                </div>
+                <div class="media comment-answer-section">
+                    <div class="media-right" id="custom-media-right">
+                        <img class="media-object img-circle" id="custom-media-object" src="assets/img/gravatar.png"
+                             width="50" height="50" alt="commenter">
+                        <div class="comment-line"></div>
+                    </div>
+                    <div class="media-body user-comment">
+                        <div class="user-comment-title">
+                            <ul class="list-inline">
+                                <li><i class="material-icons">perm_identity</i>وحید صالحی</li>
+                                <li><i class="material-icons">date_range</i>1396-09-23</li>
+                                <li class="comment-answer"><a href="#">پاسخ</a></li>
+                                <li class="comment-edit"><a href="#">ویرایش</a></li>
+                                <li></li>
+                            </ul>
+
+                        </div>
+                        <p>آموزش اسکریپت نویسی php چه زمانی برگزار خواهد شد؟</p>
+                    </div>
+                </div>
+                <div class="media comment-answer-section">
+                    <div class="media-right" id="custom-media-right">
+                        <img class="media-object img-circle" id="custom-media-object" src="assets/img/gravatar.png"
+                             width="50" height="50" alt="commenter">
+                        <div class="comment-line"></div>
+                    </div>
+                    <div class="media-body user-comment">
+                        <div class="user-comment-title">
+                            <ul class="list-inline">
+                                <li><i class="material-icons">perm_identity</i>وحید صالحی</li>
+                                <li><i class="material-icons">date_range</i>1396-09-23</li>
+                                <li class="comment-answer"><a href="#">پاسخ</a></li>
+                                <li class="comment-edit"><a href="#">ویرایش</a></li>
+                                <li></li>
+                            </ul>
+
+                        </div>
+                        <p>آموزش اسکریپت نویسی php چه زمانی برگزار خواهد شد؟</p>
+                    </div>
+                </div>
+                <div class="send-comment">
+                    <div class="alert alert-danger text-center">کاربر گرامی برای ارسال دیدگاه خود ابتدا باید در سایت <a
+                            href="#">لاگین</a> نمایید
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><i class="material-icons">mode_comment</i>ارسال دیدگــاه</div>
+                        <div class="panel-body">
+                            <p>وحید صالحی عزیز، شما لاگین هستید و می توانید سوال و یا دیدگاه خود را برای ما ارسال نمایید
+                                :</p>
+                            <form>
+
+                                <textarea class="form-control" rows="8" placeholder="متن دیدگاه شما..."> </textarea>
+                                <br>
+                                <button class="btn btn-success comment-btn-send">ارسال دیدگاه</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="wrapper-free-styles" id="course-detail-sidebar">
+                <p>جزئیات دوره</p>
+                <ul class="list-group">
+                    <li><i class="material-icons">timelapse</i>طول دوره<span>30 ساعت</span></li>
+                    <li><i class="material-icons">supervisor_account</i>دانشجویان<span>99 نفر</span>
+                    </li>
+                    <li><i class="material-icons">widgets</i>وضعیت دوره<span class="course-status">پیش ثبت نام</span>
+                    </li>
+                    <li><i class="material-icons">done</i>شروع دوره <span class="course-start-time">1 دی ماه 1396</span>
+                    </li>
+                </ul>
+                <div class="course-discount">تخفیف 30%</div>
+                <span class="course-price">شهریه دوره :
+                <strike class="main-price">150</strike>
+                    <span>135</span>
+هزار تومان</span>
+                <form>
+                    <input type="hidden" value="1290000">
+                    <input type="submit" class="btn btn-success btn-block" value="ثبت نام">
+                </form>
+            </div>
+            <div class="wrapper-free-styles" id="teacher-resume">
+                <p>مدرس دوره</p>
+                <div class="course-teacher">
+                    <img src="assets/img/vahid.jpeg" class="img-responsive img-circle" height="100" width="100"/>
+                </div>
+                <div class="course-teacher-name text-center">وحید صالحی</div>
+                <span class="about-teacher">
+مدرس و نویسنده ارشد سون لرن، فارغ التحصیل مهندسی نرم افزار با 4 سال سابقه نویسندگی و فعالیت های آموزشی حرفه ای. دارای 6 سال سابقه فعالیت در زمینه مباحث مبتنی بر وب (UI-Web Development) و گرافیک
+</span>
+            </div>
+            <div class="wrapper-free-styles" id="prerequisite-course">
+                <p>پیشنیازها</p>
+                <span class="prerequisite">پیش نیاز این دوره آشنایی مقدماتی با php  و همچنین CSS و HTML می باشد. </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--newsletter section-->
+<div class="container-fluid wrapper-margin-top"
+     id="newsletter-section">
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
+            <p class="newletter-title"> با اشتراک در خبرنامه از آخرین عناوین آموزشی مطلع شوید...</p>
+            <form class="form-inline">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="ایمیل خود را وارد نمایید...">
+                    <span class="input-group-btn">
+        <button class="btn btn-info" type="button">اشتراک</button>
+      </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--footer section-->
+<div class="container-fluid padding-reset" id="fooer-section">
+    <div class="row" id="custom-footer-row">
+        <div class="col-sm-12 col-md-4 col-lg-4 padding-reset">
+            <div id="aboutus-footer"><p>درباره ما</p></div>
+            <p class="aboutus-text">سون لرن مرجعی تخصصی برای یادگیری طراحی وب و برنامه نویسی است. ما در سون لرن با بهره
+                گیری
+                از نیروهای متخصص، باتجربه و با تحصیلات آکادمیک بالا، تمام تلاش خود را برای تهیه و تولید آموزش های با
+                کیفیت و حرفه ای انجام می دهیم. پیشنهاد می کنیم تا حرفه ای شدن با سون لرن همراه باشید!</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 padding-reset">
+            <div id="sign-footer"><p>نمادها</p></div>
+            <ul class="list-inline" id="nemad-style">
+                <li><a href="#"><img src="assets/img/b1.png"></a></li>
+                <li><a href="#"><img src="assets/img/b3.png"></a></li>
+                <li><a href="#"><img src="assets/img/b5.png"></a></li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 padding-reset">
+            <div id="comment-fooer"><p>نظـرات کاربران</p></div>
+            <div id="footer-comment-slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-circle user-avatar margin-center" src="assets/img/gravatar.png" width="60"
+                             height="60">
+                        <p class="slider-random-comment">
+                            دوره بسیار عالی و مورد نیاز برای طراحی سایت های واکنش گرا واقعا دوره خوب و لازمی بود من خیلی
+                            استفاده کردم.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img class="img-circle user-avatar margin-center" src="assets/img/gravatar.png" width="60"
+                             height="60">
+                        <p class="slider-random-comment">
+                            دوره بسیار عالی و مورد نیاز برای طراحی سایت های واکنش گرا واقعا دوره خوب و لازمی بود من خیلی
+                            استفاده کردم.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img class="img-circle user-avatar margin-center" src="assets/img/gravatar.png" width="60"
+                             height="60">
+                        <p class="slider-random-comment">
+                            دوره بسیار عالی و مورد نیاز برای طراحی سایت های واکنش گرا واقعا دوره خوب و لازمی بود من خیلی
+                            استفاده کردم.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <row>
+        <div class="col-sm-12 col-md-12 col-lg-12 padding-reset">
+            <p class="copy-right-text"><i class="material-icons">copyright</i>کليه حقوق محصولات و محتوای اين
+                سایت متعلق به سون لرن می باشد و هر گونه کپی برداری از محتوا و محصولات سایت غیر مجاز و بدون رضایت ماست.
+            </p>
+        </div>
+    </row>
+</div>
+<script src="assets/js/js.js"></script>
+</body>
+</html>
+

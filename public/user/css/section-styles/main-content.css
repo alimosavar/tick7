@@ -1,0 +1,127 @@
+.content-header{
+    background: #03A9F4;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main-content{
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+
+}
+.main-content button,.main-content ul{
+  /*  width: 300px;*/
+}
+#btn-filter-content{
+    background: #fff;
+}
+#custom-dropdown{
+    margin-bottom: 20px;
+}
+.panel-post{
+    position: relative;
+}
+.i-date{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    background: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    color: #797979;
+}
+.i-date i{
+    vertical-align: -5px;
+    margin-right: 3px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #008cba;
+    width: 100%;
+    height: 0;
+    bottom: 900%;
+    opacity: .9;
+    transition:.5s ease;
+    top: 40px;
+}
+.panel-post:hover .overlay{
+    height: 100%;
+    top:0;
+}
+.text-ecxerpt{
+    color: #fff;
+    padding: 10px;
+}
+#post-detail{
+    width: 100%;
+    color: #fff;
+    margin-top: 165px;
+    text-align: center;
+}
+#post-detail li i {
+    vertical-align: -5px;
+}
+.panel-post img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.post-type-like,.post-link{
+    padding: 10px;
+}
+.post-type-like{
+    border-top:1px dashed #efefef;
+}
+.post-type{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.post-type i{
+    vertical-align: -8px;
+    font-size: 23px;
+    color: #c6beff;
+    margin-left: 5px;
+}
+.like-btn{
+    float: left;
+    padding-top: 5px;
+}
+#dislike,#like{
+    vertical-align: -3px;
+}
+span.dislike{
+    margin-left: 10px;
+}
+span.like{
+    float: left;
+}
+i#like{
+    color: #bdb0f4;
+    margin-right: 5px;
+}
+I#dislike{
+    color: #ff7678;
+    margin-left: 5px;
+}
+.all-posts{
+    text-align: left;
+    margin: 10px 0 10px 0;
+
+}
+.all-posts i{
+    vertical-align: -6px;
+    margin-right: 12px;
+}
+#loading{
+    float: left;
+    /* display: none;*/
+}

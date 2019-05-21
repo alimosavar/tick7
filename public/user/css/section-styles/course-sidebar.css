@@ -1,0 +1,130 @@
+.course-info{
+    padding: 20px 20px;
+    border: 1px solid #efefef;
+    margin: 17px;
+    box-shadow: 1px 1px 2px 0 #efefef;
+}
+.section-title h5{
+    border-bottom: 1px solid #efefef;
+    text-align: center;
+    padding: 14px 0 13px 0;
+    font-size: 17px;
+    background-color: #ffffff;
+    margin: 0;
+    color: #85a266;
+    font-weight: bold;
+}
+/*.course-thumbnail{
+    margin-bottom: 20px;
+}*/
+.course-thumbnail img{
+    width: 100%;
+}
+.course-title{
+    line-height: 42px;
+    margin: 0;
+    border-bottom: 1px solid #f9f9f9;
+    padding: 10px;
+}
+.course-detail{
+    position: relative;
+}
+.course-detail h3{
+    color: #e67e22;
+    font-size: 22px;
+    font-weight: bold;
+}
+.course-info-tooltip{
+    position: absolute;
+    top: 19px;
+    left: 0;
+}
+.course-info-tooltip i{
+    font-size: 29px;
+    color: #b3b3b3;
+}
+.course-meta ul{
+    font-size: 13px;
+    font-weight: bold;
+    padding:13px;
+}
+.course-meta ul li i{
+    font-size: 19px;
+    color: #babaff;
+    vertical-align: -5px;
+}
+.tasks-progressbar,.vote,.ads{
+    padding: 20px 0;
+
+}
+
+.label-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.label-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.label-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.label-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.label-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.label-container .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.btn-vote{
+    margin: 20px 0;
+}
+.ads a img{
+    margin-bottom: 10px;
+}
+#more-course{
+    padding: 10px 0 25px;
+}
